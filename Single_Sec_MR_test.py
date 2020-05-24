@@ -34,7 +34,7 @@ def reindex(df):
     df = df.iloc[:,1:]
     return(df)
 
-mypath = "C://Users//Boris//Desktop//.atom//Files"
+mypath = r"C:\Users\Boris\Desktop\Files"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 for i in onlyfiles:
